@@ -34,10 +34,11 @@ optional arguments:
 
 ## Audio Segment Timestamps config file format
 ```
+mm:ss name of segment
 hh:mm:ss name of segment
 ```
 
-List of lines specifying the start time of this segment and its name separated by a whitespace.
+List of lines specifying the start time of this segment and its name separated by a whitespace. Time can be either minutes:seconds or hour:minutes:seconds. Either is allowable, an exception will be thrown if the format is incorrect.
 
 ## Output format
 ```
